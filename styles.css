@@ -1,0 +1,71 @@
+:root{
+    --primary-color: rgb(132, 23, 26);
+    --secondary-color: rgb(28, 27, 27);
+    --background-color: rgb(198, 185, 185);
+}
+
+body{
+    font-family: "PT Serif", serif;
+    margin: 0;
+    background-color: var(--background-color);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    background-color: var(--secondary-color);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.7);
+}
+
+.logo{
+    color: var(--background-color);
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav a{
+    color: var(--background-color);
+    text-decoration: none;
+    margin: 0 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+nav a:hover{
+    color: var(--primary-color);
+}
+
+.rpd {
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
+    url('assets/background.jpg') no-repeat center center/cover;
+    color: var(--background-color);
+    padding: 20px;
+}
+
+.rpd h1{
+    font-size: 2.1rem;
+    margin-bottom: 0.6rem;
+}
+
+.rpd p{
+    font-size: 1.1rem;
+    max-width: 700px;
+    margin-bottom: 1.5rem;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2.3px solid var(--primary-color);
+}
