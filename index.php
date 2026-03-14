@@ -60,6 +60,7 @@ if (isset($_POST['enviar'])) {
         <nav>
             <a href="#sobre-mi">Sobre Mi</a>
             <a href="#academico">Academico</a>
+            <a href="#comentarios">Comentarios</a>
             <a href="#contacto">Contacto</a>
         </nav>
     </header>
