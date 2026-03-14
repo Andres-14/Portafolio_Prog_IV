@@ -87,6 +87,7 @@ nav a:hover{
     font-size: 2.3rem;
     color: var(--secondary-color);
 }
+
 .cards-info {
     display: flex;
     justify-content: center;
@@ -174,4 +175,142 @@ footer {
 footer a {
     color: var(--primary-color);
     font-weight: bold;
+}
+
+.notes {
+    padding: 4rem 1.5rem;
+    background-color: rgba(0, 0, 0, 0.03);
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+.notes h3 {
+    font-size: 2.3rem;
+    color: var(--secondary-color);
+}
+
+.notes h2 {
+    font-size: 1.1rem;
+    color: var(--secondary-color);
+}
+
+.form-container {
+    width: 100%;
+    max-width: 550px;
+    margin: 2rem auto;
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: var(--secondary-color);
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.form-container h4 {
+    font-size: 1.2rem;
+    color: var(--background-color);
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-container input, 
+.form-container textarea {
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background-color: var(--background-color);
+    font-family: inherit;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+.cancel-link {
+    display: block;
+    margin-top: 10px;
+    color: var(--primary-color);
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn-enviar {
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    border: none;
+    padding: 14px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.btn-enviar:hover {
+    background-color: rgb(150, 15, 20);
+}
+
+.cards-notes {
+    text-align: center;
+    background-color: var(--secondary-color);
+    color: var(--background-color);
+    padding: 1.5rem;
+    border-radius: 8px;
+    width: 270px;
+    box-shadow: 0 4px 7px rgba(0, 0, 0, 0.9);
+    transition: transform 0.3s ease;
+}
+
+.cards-notes:hover {
+    transform: translateY(-8px);
+}
+
+.card-note {
+    text-align: left;
+    height: auto;
+    width: 310px;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.card-note h4 {
+    margin: 0;
+    padding: 0;
+}
+
+.card-note .date {
+    margin: 4px 0;
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.card-note p {
+    margin-top: 12px;
+    margin-bottom: 8px;
+    line-height: 1.2;
+}
+
+.note-actions {
+    display: flex;
+    gap: 15px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 12px;
+    margin-top: auto;
+}
+
+.edit-link { 
+    color: #3498db; 
+    text-decoration: none; 
+    font-size: 0.85rem; 
+    font-weight: bold; 
+}
+
+.delete-link { 
+    color: var(--primary-color); 
+    text-decoration: none; 
+    font-size: 0.85rem; 
+    font-weight: bold; 
 }
