@@ -25,9 +25,17 @@ Es la segunda sección de la pagina, justo debajo de "Sobre Mi", cuenta con 3 ca
 
 Las cards cuentan con una imagen de referencia y con animaciones y comportamientos especiales al pasar el mouse sobre ellas, como desplazarse hacia arriba y cambiar de color.
 
+- ## 💻 Sección Comentarios 📝
+
+Es la tercera sección de la pagina, al igual que las demas, se puede acceder a ella desde el header o scrolleando en la pagina, se encuentra justo debajo de "Académico". Cuenta con un recuadro central que consta de varios inputs para rellenar con la informacion solicitada, (Nombre y Apellido, Correo y el Mensaje a Enviar) una vez rellenado estos campos, puedes enviar tu nota, la cual aparecera justo abajo del formulario en formato de Card.
+
+Los comentarios apareceran en Cards pequeñas una al lado de la otra hasta que ya no haya más espacio, entonces empezaran a aparecer en columnas. En ellas se puede ver el nombre del que hizo el comentario, la fecha y hora em la que se realizo, ademas del comentario en si. Aparte tambien apareceran las opciones de eliminar y editar.
+
+En caso de editar, el recuadro del formulario volvera a rellenarse con los campos del comentario seleccionado y ahi puedes editarlo y guardar los cambios o cancelar la edicion. En el caso de eliminar, la pagina te preguntara si estas seguro y en caso de afirmar, el comentario sera eliminado.
+
 - ## 💻 Sección Contacto 📱
 
-En la tercera sección de la pagina. Se puede acceder a ella también desde el header apretando la etiqueta "Contacto". Cuenta con una imagen de fondo del maletín del RE4 Remake y con 3 iconos en el centro (Correo, Github y Telegram). Cada uno tiene animación al pasar el mouse sobre ellos.
+En la cuarta sección de la pagina. Se puede acceder a ella también desde el header apretando la etiqueta "Contacto". Cuenta con una imagen de fondo del maletín del RE4 Remake y con 3 iconos en el centro (Correo, Github y Telegram). Cada uno tiene animación al pasar el mouse sobre ellos.
 
 Cada uno hace referencia a una forma de contactarme, abajo de los iconos se encuentra mi nombre de usuario o correo correspondiente en cada una de ella.
 
